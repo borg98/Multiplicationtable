@@ -1,0 +1,165 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  font-size: 12pt;
+}
+
+body {
+  height: 150vh;
+  background-image: url(/assets/luke-chesser-pJadQetzTkI-unsplash.jpg);
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 5px;
+
+  background-image: url(/assets/luke-chesser-pJadQetzTkI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.multiplication {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border-bottom: 1px solid black;
+  padding-top: 50px;
+}
+
+.form1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(42, 86, 167);
+}
+
+input {
+  text-align: center;
+  color: black;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 25px;
+  margin: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+form span {
+  transform: translateY(16px);
+}
+
+.buttonContainer {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+  color: black;
+  padding: 3px 10px 3px 10px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: whitesmoke;
+}
+
+.button1:active {
+  width: 78px;
+  height: 26px;
+}
+
+.sum {
+  font-size: 3rem;
+}
+
+.output {
+  background-image: url(/assets/luke-chesser-pJadQetzTkI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  min-width: 150px;
+  min-height: 40px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transform: translate(0, 10px);
+  font-size: 2rem;
+  pointer-events: none;
+}
+
+.multiplicationTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.tableInput {
+  flex-direction: row;
+}
+
+.button2 {
+  color: black;
+  padding: 4px 12px 4px 12px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.button2:hover {
+  background-color: whitesmoke;
+}
+
+.button2:active {
+  width: 78px;
+  height: 28px;
+}
+
+#outputTable {
+  display: flex;
+  flex-direction: column;
+}
