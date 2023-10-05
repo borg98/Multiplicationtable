@@ -33,7 +33,7 @@ function printTotal() {
   val3 = userInput3.valueAsNumber;
 
   const outputTable = document.getElementById("outputTable");
-  outputTable.replaceChildren();
+  outputTable.innerHTML = "";
 
   if (userInput3.value == "") {
     outputTable.innerHTML = "Ange en siffra mellan 1-99";
