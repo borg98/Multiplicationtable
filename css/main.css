@@ -9,7 +9,7 @@
 
 body {
   height: 150vh;
-  background-image: url(/assets/luke-chesser-pJadQetzTkI-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@ header {
   border-bottom: 1px solid black;
   padding: 5px;
 
-  background-image: url(/assets/luke-chesser-pJadQetzTkI-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: center;
 }
@@ -113,7 +113,7 @@ form span {
 }
 
 .output {
-  background-image: url(/assets/luke-chesser-pJadQetzTkI-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: center;
   display: flex;
